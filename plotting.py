@@ -220,7 +220,6 @@ if __name__ == '__main__':
     # plot_instance(prcHist, [
     #     {'metric' : ATR14, 'bounds':[0.1,0.7], 'name' : "ATR14"}
     # ])
-
     # example: plot of multiple(ish) metrics with bounds
     plot_instance(prcHist, [
         {'metric' : [SMA10, SMA30], 'name' : ["SMA10", "SMA30"]},
